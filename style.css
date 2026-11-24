@@ -1,0 +1,157 @@
+* { box-sizing: border-box;
+margin:0;
+padding:0;
+}
+body {
+  background-color: #1d2029;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  padding: 30px 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.sub {
+  color: #8b97c6;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.mode {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #8b97c6;
+  font-size: 14px;
+}
+
+.switch {
+  width: 44px;
+  height: 22px;
+  background-color: #388fe7;
+  border-radius: 20px;
+  padding: 3px;
+}
+
+.circle {
+  width: 16px;
+  height: 16px;
+  background-color: #1d2029;
+  border-radius: 50%;
+}
+
+.top {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.box {
+  flex: 1;
+  background-color: #252a41;
+  border-radius: 6px;
+  padding: 25px 15px;
+  text-align: center;
+}
+
+.fb { border-top: 4px solid #198ff5; }
+.tw { border-top: 4px solid #1ca0f2; }
+.ig { border-top: 4px solid #df4996; }
+.yt { border-top: 4px solid #c4032a; }
+
+.name {
+  color: #8b97c6;
+  font-size: 13px;
+  margin-bottom: 18px;
+}
+
+.box h2 {
+  font-size: 46px;
+  margin-bottom: 5px;
+}
+
+.text {
+  color: #8b97c6;
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.green {
+  color: #1db489;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.red {
+  color: #dc414c;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+}
+
+.small {
+  background-color: #252a41;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.line:last-child {
+  margin-bottom: 0;
+}
+
+.line span {
+  color: #8b97c6;
+  font-size: 14px;
+}
+
+.line h3 {
+  font-size: 28px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.fb-badge { background-color: #198ff5; }
+.tw-badge { background-color: #1ca0f2; }
+.ig-badge { background-color: #df4996; }
+.yt-badge { background-color: #c4032a; }
+ .ig {
+    border-top: 4px solid #df4996;
+    background-image: linear-gradient(90deg,#fdc468, #df4996) ;
+    background-size: 100% 4px ;
+    background-repeat: no-repeat;
+ }
